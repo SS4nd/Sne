@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="mainScreen" class="mainScreen">
+        <img src="images/snowm (2).png" style="width: 60vh;right: 10%;position: absolute;filter: drop-shadow(-8px 10px 5px #222);" />
+        <img src="images/snowm (1).png " style="width: 60vh;left: 10%;position: absolute;filter: drop-shadow(-8px 10px 5px #222);" />
+
+        <div style="margin-top: 5%;">
+            <p1 style="font-size: 15vh;text-shadow: -4px 5px 4px rgb(33, 33, 33);padding-top: 20%;color: lightblue; font-family:monospace;">
+                Sne
+            </p1>
+        </div>
+        <p id="pp" style="font-size: 15vh;margin-left: auto;margin-right: auto; text-shadow: -4px 5px 4px rgb(33, 33, 33); color: wheat;margin-top: 25%;"></p>
+        <button id="boc" class="mainButtons">Start</button>
+    </div>
+
+    <div id="cav" class="canvasss">
+        <canvas class="canvass" id="myCanvas">
+        </canvas>
+        <img style="pointer-events: none; position: absolute;" src="images/paper.jpg" />
+        <p id="curMoney" class="te"></p>
+        <p id="cc" class="te" style="top:10%;"></p>
+
+        <div class="button" id="first">
+            <img style="pointer-events: none; width: 15vh; right: 30%;bottom: 0%; position: absolute;" class="size" src="images/wood.png" />
+            <button id="button" style="transition: all 0.5s ease;background-color: rgba(255, 70, 70, 0); border-color: rgba(255, 70, 70, 0);">
+                <img class = "size" src="images/snowm (1).png"/>
+            </button>
+        </div>
+
+        <div class="button2" id="second">
+            <img style="pointer-events: none; width: 15vh; right: 30%;bottom: 0%; position: absolute;" class="size" src="images/wood.png" />
+            <button style="transition: all 0.5s ease;background-color: rgba(255, 70, 70, 0); border-color: rgba(255, 70, 70, 0);" id="button2">
+                <img class = "size" src="images/snowm (2).png" />
+            </button>
+        </div>
+        <button class="upgrade1" id="upgrade1">Upgrade Click: 3</button>
+    </div>
+</body>
+
+</html>

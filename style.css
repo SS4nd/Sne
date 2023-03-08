@@ -1,0 +1,128 @@
+body {
+    overflow: hidden;
+    background-image: url("images/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.canvasss {
+    top: 0%;
+    display: none;
+    background-image: url("images/paper.jpg");
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    background-size: cover;
+    min-height: 100%;
+    box-shadow: inset 0px 0px 20px 2px black;
+}
+
+.te {
+    font-size: 75px;
+    font-family: fantasy;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    color: white;
+    font-size: 10vh;
+    text-shadow: -7px 7px rgb(33, 33, 33);
+}
+
+.penge {
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.mainScreen {
+    text-align: center;
+    font-size: 75px;
+    font-family: fantasy;
+}
+
+.mainButtons:hover {
+    background-color: rgba(255, 70, 70, 1);
+    color: white;
+}
+
+.transform {
+    transition: all 2s ease;
+}
+
+.mainButtons:hover:active {
+    background-color: rgba(255, 70, 70, 1);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.mainButtons {
+    background-color: #4CAF50;
+    position: absolute;
+    width: 22%;
+    height: 26%;
+    left: 39%;
+    margin: 0%;
+    font-size: 7vh;
+    top: 44%;
+    font-family: monospace;
+    border-radius: 15px;
+    box-shadow: -4px 7px 5px rgb(33, 33, 33);
+}
+
+.button {
+    position: absolute;
+    top: 49%;
+    left: 42.5%;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 70, 70, 0);
+    border-color: rgba(255, 70, 70, 0);
+}
+
+#button.flipped {
+    transform: rotateY(180deg);
+}
+
+.size {
+    width: 39vh;
+    height: auto;
+    filter: drop-shadow(8px 10px 5px #222);
+}
+
+.button2 {
+    position: absolute;
+    top: 49%;
+    left: 57.5%;
+    transition: all 0.5s ease;
+    border-color: rgba(255, 70, 70, 0);
+    background-color: rgba(255, 70, 70, 0);
+}
+
+#button2.flipped {
+    transform: rotateY(180deg);
+}
+
+.upgrade1 {
+    height: 15%;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 50%;
+    border-radius: 5px;
+    font-size: 3vh;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    box-shadow: -7px 7px rgb(33, 33, 33);
+}
+
+.comp {
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+}
